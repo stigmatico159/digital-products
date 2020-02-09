@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/*-----------varibales--------------*/
+--variable-larga:black;
+
+/*-----------varibales--------------*/
+*{
+	padding: 0;
+	margin: 0;
+}
+html,body{
+	padding: 0px;
+	margin: 0px;
+}
+nav{
+	background-color: #7Acc2d;
+	padding: 10px;
+	font-size: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+}
+nav ul{
+	display: flex;
+}
+nav ul li{
+	padding-right: 5px;
+	list-style: none;	
+}
+nav ul li a{
+	color: black;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+	color: white;
+}
+
+/*-------------------main section---------------*/
+
+.main-section{
+	padding: 10%;
+	text-align: center;
+	font-size: 23px;
+}
+.productos{
+	background-image: url("../images/curve.png");
+	background-size: cover;
+	background-position: center top;
+	padding-top: 10%;
+    padding-right: 25%;
+    padding-bottom: 10%;
+    padding-left: 25%;
+	display: flex;
+	/*justify-content: center;*/
+	font-family: 'Open Sans', sans-serif;
+}
+.productos .producto{
+	padding: 10px;
+	margin-top: -300px;
+	width: 450px;
+}
+.productos .producto .contenido{
+	background-color: white;
+	padding: 15px;
+	box-shadow: 0 0 3px black;
+}
+.productos .producto .contenido .img-contenido{
+	text-align: center;
+}
+.productos .producto .contenido p{
+	padding-left: 5px;
+}
+
+.productos .producto .contenido .main-button{
+	background-color: #7acc2d;
+	width: 100%;
+	padding: 10px;
+	border: 0;
+	color: white;
+	font-size: 15px;
+	cursor: pointer;
+}
+.productos .producto .contenido .main-button:hover{
+	background-color: #5e9e22;
+}
+
+/*-------------------end main section---------------*/
+
+/*---------------------Seccion cualidades-----------*/
+
+.cualidades{
+	display: flex;
+	padding: 8%;
+	justify-content: center;
+	font-family: 'Open Sans', sans-serif;
+}
+.cualidades .cualidad {
+	width: 215px;
+	padding-top: 0px;
+	padding-left: 140px;
+	padding-bottom: 0px;
+	padding-right: 140px;
+}
+.cualidades .cualidad .img-cualidad{
+	text-align: center;
+}
+
+/*---------------------End Seccion cualidades-----------*/
+
+/*---------------------Seccion menciones-----------*/
+/*.tituloMenciones{
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+
+}*/
+
+.menciones{
+	
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+.menciones .mencion {
+	
+	padding: 10px;
+
+}
+.menciones .mencion .contenidomencion{
+	box-shadow: 0 0 5px black;
+	width: 360px;
+	padding: 0;
+}
+
+.menciones .mencion .contenidomencion .img-mencion{
+	text-align: center;
+	/*background-image: url("../images/p1.png");*/
+
+
+}
+.menciones .mencion .contenidomencion .img-mencion img{
+	width: 100%
+
+}
+.menciones .mencion .contenidomencion h1{
+	/*box-shadow: 0 0 2px black;*/
+	padding-top: 0px;
+	padding-left: 20px;
+	padding-bottom: 00px;
+	padding-right: 00px;
+}
+.menciones .mencion .contenidomencion p{
+	/*box-shadow: 0 0 2px black;*/
+	padding-top: 0px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+}
+/*---------------------end Seccion menciones-----------*/
+/*-----------------footer--------------------*/
+
+.pie-de-pagina {
+	display: flex;
+	/*flex-direction: row;*/
+	justify-content: space-between;
+	background-color: #313337;
+	color: white;
+	padding: 20px;
+}
+.pie-de-pagina .derecha a{
+	color: green;
+}
+
+
+/*-----------------End footer--------------------*/
+
+/*---------------grillas---------------*/
+
+.container .row img{
+	width: 230px;
+	height: 230px;
+}
+.container .row .col-4{
+	/*box-shadow: 0 0 2px black;*/
+}
+.container .row .col-8{
+	/*box-shadow: 0 0 2px black;*/
+}
+.container .row h1{
+	font-size: 30px;
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 5%;
+}
+.container .row p{
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	padding-left: 2%;
+}
+/*---------------End Grillas---------------*/
+
+/*-----------------venta-----------------*/
+
+.modulo-pago{
+	background-color: white;
+	box-shadow: 0 0 2px black;
+	padding: 10px;
+}
+
+.modulo-pago .modulo-pago-img{
+	/*max-width: 150px;*/
+	text-align: center;
+	/*margin: auto;*/
+}
+.modulo-pago .data{
+	margin-top: 10px;
+	width: 100%;
+	height: 35px;
+	border-radius: 2px;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+
+.modulo-pago .main-button{
+	background-color: #7acc2d;
+	width: 100%;
+	padding: 10px;
+	border: 0;
+	color: white;
+	font-size: 15px;
+	cursor: pointer;
+}
+/*-----------------End venta-----------------*/

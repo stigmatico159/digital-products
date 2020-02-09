@@ -1,0 +1,23 @@
+@media (max-width: 600px) {
+
+	.productos{
+		display: inherit;
+		padding: 10% 10%;
+	}
+	.productos .producto{
+		margin-top: auto;
+	}
+	.main-section{
+		padding: 4%;
+	}
+	.cualidades{
+		display: inherit;
+		/*padding: 10% 10%;*/
+	}
+	.menciones{
+		display: inherit;
+		padding: 10% 18%;
+	}
+
+
+}
